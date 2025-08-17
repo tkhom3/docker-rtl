@@ -42,7 +42,7 @@ if [ "${SEND_TO_MQTT}" = "true" ]; then
     MQTT_EVENTS="[/model][/id]"
     fi
 
-    /usr/bin/rtl_433 -f ${RTL_FREQ} -F "mqtt://${MQTT_HOST}:${MQTT_PORT},user=${MQTT_USER},pass=${MQTT_PASS},events=${host}${MQTT_EVENTS}}"
+    /usr/bin/rtl_433 -f ${RTL_FREQ} -F "mqtt://${MQTT_HOST}:${MQTT_PORT},user=${MQTT_USER},pass=${MQTT_PASS},events=${HOSTNAME}${MQTT_EVENTS}}"
 
 elif [ "${SEND_TO_MQTT}" = "false" ]; then
     echo "SEND_TO_MQTT is set to 'false'. Sending output to stdout."

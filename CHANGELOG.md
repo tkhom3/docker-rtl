@@ -1,0 +1,15 @@
+# Changelog
+
+## 1.0.0 (2025-08-17)
+
+
+### Features
+
+* bump debian from 12.11-slim to 13.0-slim ([6271afa](https://github.com/tkhom3/docker-rtl/commit/6271afa3bc82528aed3b72c49a400205d3bacc96))
+* bump debian from 12.11-slim to 13.0-slim ([a161b87](https://github.com/tkhom3/docker-rtl/commit/a161b87d3a379c4946f88bea703b106cfd89f1d0))
+
+
+### Bug Fixes
+
+* force deploy ([0cd3c4b](https://github.com/tkhom3/docker-rtl/commit/0cd3c4b0d1f68b481bc21ff90b4dd2a82a7b3ea4))
+* force deploy ([465483b](https://github.com/tkhom3/docker-rtl/commit/465483b0243bbbf887dd34b3ce5a387fcb5e0368))

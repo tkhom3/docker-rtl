@@ -7,8 +7,6 @@ if [ -z "${RTL_FREQ:-}" ]; then
 fi
 
 if [ "${SEND_TO_MQTT}" = "true" ]; then
-    echo "SEND_TO_MQTT is set to 'true'. Sending output to MQTT broker."
-
     if [ -z "${MQTT_HOST:-}" ]; then
         echo "MQTT_HOST is not set. Please set it before running the container."
         exit 1
@@ -35,8 +33,6 @@ if [ "${SEND_TO_MQTT}" = "true" ]; then
         HOSTNAME="rtl_433"
     fi
     
-    echo "Using hostname: ${HOSTNAME}"
-
     if [ -z "${MQTT_EVENTS:-}" ]; then
     echo "MQTT_EVENTS is not set. Defaulting to '[/model][/id]'."
     MQTT_EVENTS="[/model][/id]"

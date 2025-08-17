@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/tkhom3/docker-rtl/compare/v1.0.2...v1.0.3) (2025-08-17)
+
+
+### Bug Fixes
+
+* cleanup variables and remove unneeded echos ([178a5f2](https://github.com/tkhom3/docker-rtl/commit/178a5f27b908ae3c7410b9bd9b4e2ae3e838dea2))
+
 ## [1.0.2](https://github.com/tkhom3/docker-rtl/compare/v1.0.1...v1.0.2) (2025-08-17)
 
 

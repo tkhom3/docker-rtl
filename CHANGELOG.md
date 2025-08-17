@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/tkhom3/docker-rtl/compare/v1.0.0...v1.0.1) (2025-08-17)
+
+
+### Bug Fixes
+
+* update events ([698815c](https://github.com/tkhom3/docker-rtl/commit/698815c1e69e16a485c8f7d99bae839de331334e))
+
 ## 1.0.0 (2025-08-17)
 
 

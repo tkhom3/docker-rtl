@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/tkhom3/docker-rtl/compare/v1.0.1...v1.0.2) (2025-08-17)
+
+
+### Bug Fixes
+
+* update bad parameter ([4781306](https://github.com/tkhom3/docker-rtl/commit/4781306b7f4c39e44082f503fec6133d12f87958))
+
 ## [1.0.1](https://github.com/tkhom3/docker-rtl/compare/v1.0.0...v1.0.1) (2025-08-17)
 
 

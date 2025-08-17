@@ -2,4 +2,4 @@
 
 # docker-rtl
 
-Container to run rtl_433 to collect meter readings.
+Container to run rtl_433 to collect meter readings. 

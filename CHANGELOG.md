@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.0](https://github.com/tkhom3/docker-rtl/compare/v1.0.3...v2.0.0) (2025-08-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* Move to config file and dedicated user
+* Switch to config file
+
+### Code Refactoring
+
+* Move to config file and dedicated user ([55a88fd](https://github.com/tkhom3/docker-rtl/commit/55a88fd6032f6c3a4d8b742100a1da6f7833fe9a))
+* Switch to config file ([c9bd667](https://github.com/tkhom3/docker-rtl/commit/c9bd667b92a2f12a1322a8266c1eb36c2800d91e))
+
 ## [1.0.3](https://github.com/tkhom3/docker-rtl/compare/v1.0.2...v1.0.3) (2025-08-17)
 
 

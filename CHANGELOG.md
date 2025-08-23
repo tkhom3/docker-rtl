@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/tkhom3/docker-rtl/compare/v2.0.1...v2.0.2) (2025-08-23)
+
+
+### Bug Fixes
+
+* force deploy ([f4179df](https://github.com/tkhom3/docker-rtl/commit/f4179dfe1704811c37bce1733be4ca18215d1149))
+
 ## [2.0.1](https://github.com/tkhom3/docker-rtl/compare/v2.0.0...v2.0.1) (2025-08-23)
 
 

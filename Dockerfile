@@ -5,17 +5,12 @@ RUN apt-get update && apt-get install -y \
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-ENV RTL_FREQ=
-ENV SEND_TO_MQTT=
-ENV MQTT_USER=
-ENV MQTT_PASS=
-ENV MQTT_HOST=
-ENV MQTT_PORT=
-ENV MQTT_EVENTS=
+ENV CONFIG_DIR="/config"
 
-WORKDIR /src
+RUN mkdir -p $CONFIG_DIR
 
-COPY run.sh .
-RUN chmod +x run.sh
+WORKDIR $CONFIG_DIR
 
-ENTRYPOINT ["sh", "run.sh"]
+COPY rtl_433.conf .
+
+ENTRYPOINT [ "sh", "-c", "/usr/bin/rtl_433 -c ${CONFIG_DIR}/rtl_433.conf" ]

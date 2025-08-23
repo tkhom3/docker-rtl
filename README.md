@@ -2,4 +2,10 @@
 
 # docker-rtl
 
-Container to run rtl_433 to collect meter readings. 
+Container to run rtl_433 to collect meter readings.
+
+## Environment Variables
+
+| **Variable**  | **Default**            | **Description**                             |
+|---------------|------------------------|---------------------------------------------|
+| CONFIG_DIR    | /config                | Persistant Config File Directory            |

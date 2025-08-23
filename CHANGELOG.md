@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/tkhom3/docker-rtl/compare/v2.0.0...v2.0.1) (2025-08-23)
+
+
+### Bug Fixes
+
+* copy file after directory is mounted in unraid ([15a008b](https://github.com/tkhom3/docker-rtl/commit/15a008bb8010d434b984002010e45f91ebe3d768))
+
 ## [2.0.0](https://github.com/tkhom3/docker-rtl/compare/v1.0.3...v2.0.0) (2025-08-23)
 
 

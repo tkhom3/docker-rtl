@@ -1,7 +1,8 @@
 FROM debian:13.0-slim
 
 RUN apt-get update && apt-get install -y \
-    rtl-433
+    rtl-433 \
+    usbutils
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
@@ -16,11 +17,13 @@ RUN useradd -m $USER && \
 
 RUN mkdir -p $CONFIG_DIR
 
-WORKDIR $CONFIG_DIR
+WORKDIR /home/$USER
 
-COPY --chown=$USER:$USER rtl_433.conf .
-RUN chmod 664 rtl_433.conf
+COPY --chown=$USER:$USER rtl_433_example.conf .
+COPY --chown=$USER:$USER run.sh .
+RUN chmod 554 run.sh && \
+    chmod 664 rtl_433_example.conf
 
-USER $USER
+# USER $USER # to-do: run as non-root user https://www.instructables.com/rtl-sdr-on-Ubuntu/
 
-ENTRYPOINT [ "sh", "-c", "/usr/bin/rtl_433 -c ${CONFIG_DIR}/rtl_433.conf" ]
+ENTRYPOINT [ "sh", "run.sh" ]

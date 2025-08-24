@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.3](https://github.com/tkhom3/docker-rtl/compare/v2.0.2...v2.0.3) (2025-08-24)
+
+
+### Bug Fixes
+
+* force deploy ([2c7537c](https://github.com/tkhom3/docker-rtl/commit/2c7537c9eb2ef6130acfe64d7d32d91674dc6be2))
+* force deploy ([37ff1fb](https://github.com/tkhom3/docker-rtl/commit/37ff1fb98ef37c41072e83350cfd3f235f413543))
+* revert back to commandline arguments ([6fd17db](https://github.com/tkhom3/docker-rtl/commit/6fd17db9c4d15728b84629e94c230f26edbc32ee))
+
 ## [2.0.2](https://github.com/tkhom3/docker-rtl/compare/v2.0.1...v2.0.2) (2025-08-23)
 
 

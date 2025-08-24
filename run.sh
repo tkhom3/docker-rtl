@@ -1,9 +1,15 @@
-#!/bin/bash
+#!/bin/sh
+set -eu
 
-# Seed config file for first run
-if [ ! -f "$CONFIG_DIR/rtl_433.conf" ]; then
-    echo "Config file not found in $CONFIG_DIR, copying from /home/$USER..."
-    cp /home/$USER/rtl_433_example.conf /$CONFIG_DIR/rtl_433.conf
+if [ -z "${RTL_FREQ:-}" ]; then
+    echo "RTL_FREQ is not set. Defaulting to 912M."
+    RTL_FREQ="912M"
 fi
 
-/usr/bin/rtl_433 -c "$CONFIG_DIR/rtl_433.conf"
+if [ -z "${ADDITIONAL_PARAMETERS:-}" ]; then
+
+    /usr/bin/rtl_433 -f ${RTL_FREQ} ${ADDITIONAL_PARAMETERS}
+
+else
+    /usr/bin/rtl_433 -f ${RTL_FREQ}
+fi

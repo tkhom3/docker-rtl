@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.4](https://github.com/tkhom3/docker-rtl/compare/v2.0.3...v2.0.4) (2025-08-25)
+
+
+### Bug Fixes
+
+* check for non-empty string ([751c877](https://github.com/tkhom3/docker-rtl/commit/751c8771c936919e4ada09b9c158aafc263e42ca))
+* check for non-empty string ([6854939](https://github.com/tkhom3/docker-rtl/commit/6854939edaf3713cd6581f066d692071c70829bd))
+
 ## [2.0.3](https://github.com/tkhom3/docker-rtl/compare/v2.0.2...v2.0.3) (2025-08-24)
 
 

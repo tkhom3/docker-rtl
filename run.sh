@@ -6,10 +6,8 @@ if [ -z "${RTL_FREQ:-}" ]; then
     RTL_FREQ="912M"
 fi
 
-if [ -z "${ADDITIONAL_PARAMETERS:-}" ]; then
-
+if [ -n "${ADDITIONAL_PARAMETERS:-}" ]; then
     /usr/bin/rtl_433 -f ${RTL_FREQ} ${ADDITIONAL_PARAMETERS}
-
 else
     /usr/bin/rtl_433 -f ${RTL_FREQ}
 fi

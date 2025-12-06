@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.2.0](https://github.com/tkhom3/docker-rtl/compare/v2.1.0...v2.2.0) (2025-12-06)
+
+
+### Features
+
+* bump debian from 13.1-slim to 13.2-slim ([4cf5cf2](https://github.com/tkhom3/docker-rtl/commit/4cf5cf21c9531a34362ec5a7cef5aadbdc4c4330))
+* bump debian from 13.1-slim to 13.2-slim ([d2507f2](https://github.com/tkhom3/docker-rtl/commit/d2507f27a10a06e7149090856f1a12cfd85d846b))
+
+
+### Bug Fixes
+
+* no longer running trivy ([e2b9e17](https://github.com/tkhom3/docker-rtl/commit/e2b9e1715ee796ffaefd184e2757e80bbfa75970))
+* no longer running trivy ([7764b30](https://github.com/tkhom3/docker-rtl/commit/7764b30a68980256d332f45c369cc2aa27ce2b2f))
+
 ## [2.1.0](https://github.com/tkhom3/docker-rtl/compare/v2.0.5...v2.1.0) (2025-09-30)
 
 

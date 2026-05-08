@@ -3,16 +3,16 @@ name: Create Release, Build and Deploy Image
 on:
  push:
     branches:
-      - main
- 
+      - 'main'
+
 permissions:
+  actions: write
   contents: write
-  pull-requests: write
   issues: write
+  id-token: write
+  pull-requests: write
 
 jobs:
-  generate-sbom:
-    uses: tkhom3/gha-workflows/.github/workflows/generate-sbom.yml@main
   build-and-release-image:
-    uses: tkhom3/gha-workflows/.github/workflows/build-and-push-image.yml@main
+    uses: tkhom3/gha-workflows/.github/workflows/build-and-push-image.yml@bf11820fb9c21e7fd326869bf434923be9450319
     secrets: inherit

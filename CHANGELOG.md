@@ -1,3 +1,10 @@
+## [2.3.0](https://github.com/tkhom3/docker-rtl/compare/v2.2.0...v2.3.0) (2026-05-08)
+
+### ✨ Features
+
+* bump debian from 13.2-slim to 13.3-slim ([c1ded18](https://github.com/tkhom3/docker-rtl/commit/c1ded18429c21a602954534f6306a24b440d7d0a))
+* bump debian from 13.3-slim to 13.4-slim ([35d86a1](https://github.com/tkhom3/docker-rtl/commit/35d86a1e232d5b526598e7937664f3643a2d3eb1))
+
 # Changelog
 
 ## [2.2.0](https://github.com/tkhom3/docker-rtl/compare/v2.1.0...v2.2.0) (2025-12-06)

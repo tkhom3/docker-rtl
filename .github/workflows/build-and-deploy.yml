@@ -14,5 +14,5 @@ permissions:
 
 jobs:
   build-and-release-image:
-    uses: tkhom3/gha-workflows/.github/workflows/build-and-push-image.yml@bf11820fb9c21e7fd326869bf434923be9450319
+    uses: tkhom3/gha-workflows/.github/workflows/build-and-push-image.yml@7b2d2e74a1e5e78eaa00680703479a72f3cef661 # v1.0.2
     secrets: inherit
